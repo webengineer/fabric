@@ -34,7 +34,9 @@ setup(
     long_description=long_description,
     author='Jeff Forcier',
     author_email='jeff@bitprophet.org',
-    url='http://fabfile.org',
+    maintainer='Max Chervonec',
+    maintainer_email='electedm@odeskps.com',
+    url='http://pypi.odeskps.com/simple/odeskps-fabric',
     packages=find_packages(),
     test_suite='nose.collector',
     tests_require=['nose', 'fudge'],
@@ -45,7 +47,7 @@ setup(
         ]
     },
     classifiers=[
-          'Development Status :: 5 - Production/Stable',
+          'Development Status :: 4 - Beta',
           'Environment :: Console',
           'Intended Audience :: Developers',
           'Intended Audience :: System Administrators',
