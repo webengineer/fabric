@@ -10,6 +10,9 @@ from subprocess import Popen, PIPE
 from os.path import abspath, dirname
 
 
+VERSION = (1, 2, 2, 'final', 0)
+
+
 def git_sha():
     loc = abspath(dirname(__file__))
     p = Popen(
@@ -20,8 +23,6 @@ def git_sha():
     )
     return p.communicate()[0]
 
-
-VERSION = (1, 2, 0, 'beta', 1)
 
 def get_version(form='short'):
     """
